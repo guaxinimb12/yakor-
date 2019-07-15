@@ -1,10 +1,10 @@
 {
-  "name": "@pixi/core",
+  "name": "@pixi/app",
   "version": "5.0.4",
-  "main": "lib/core.js",
-  "module": "lib/core.es.js",
-  "bundle": "dist/core.js",
-  "description": "Core PixiJS",
+  "main": "lib/app.js",
+  "module": "lib/app.es.js",
+  "bundle": "dist/app.js",
+  "description": "Convenience class to create a new PixiJS application",
   "author": "Mat Groves",
   "contributors": [
     "Matt Karl <matt@mattkarl.com>"
@@ -24,12 +24,11 @@
     "dist"
   ],
   "dependencies": {
-    "@pixi/constants": "^5.0.4",
-    "@pixi/display": "^5.0.4",
-    "@pixi/math": "^5.0.4",
-    "@pixi/runner": "^5.0.4",
-    "@pixi/settings": "^5.0.4",
-    "@pixi/ticker": "^5.0.4",
+    "@pixi/core": "^5.0.4",
+    "@pixi/display": "^5.0.4"
+  },
+  "devDependencies": {
+    "@pixi/canvas-renderer": "^5.0.4",
     "@pixi/utils": "^5.0.4"
   }
 }
